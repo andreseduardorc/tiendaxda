@@ -1,0 +1,25 @@
+header {
+    background-color: $white;
+}
+
+.text__box {
+    background-color: $white;
+    position: relative;
+    bottom: 5rem;
+    text-align: center;
+}
+
+.text__central {
+    width: 80%;
+    text-align: left;
+    margin: auto;
+}
+
+.text__central p {
+    color: $granitegray;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: $xx-large;
+}
