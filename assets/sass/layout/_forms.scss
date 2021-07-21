@@ -1,16 +1,23 @@
 .form__cube {
     background-color: $smokyblack;
-    height: 10rem;
+    height: 12rem;
+    margin-top: 5rem;
+    padding-top: 2rem;
+    margin-right: 3rem;
+}
+
+.form__cube-text {
+    padding-left: 1rem;
+    color: $isabelline;
 }
 
 label {
     font-family: $old;
-    font-size: $xxx-large;
+    font-size: $x-large;
     color: $white;
     font-weight: bold;
 }
 
-.form__group {
+.form-group {
     text-align: left;
-    padding-left: 1rem;
 }

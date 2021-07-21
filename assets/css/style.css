@@ -9930,7 +9930,6 @@ h3 {
 }
 body {
   font-family: "Old Standard TT", serif;
-  background-color: #fff;
 }
 
 /*reset*/
@@ -9947,9 +9946,10 @@ img {
   height: 5rem;
   background-color: #0c0910;
   text-align: center;
-  padding-top: 1.2rem;
+  padding-top: 1.6rem;
   font-weight: bold;
   font-size: 18px;
+  color: #fff;
 }
 
 .nav-item a {
@@ -9984,19 +9984,26 @@ h1 {
 
 .form__cube {
   background-color: #0c0910;
-  height: 10rem;
+  height: 12rem;
+  margin-top: 5rem;
+  padding-top: 2rem;
+  margin-right: 3rem;
+}
+
+.form__cube-text {
+  padding-left: 1rem;
+  color: #ececec;
 }
 
 label {
   font-family: "Old Standard TT", serif;
-  font-size: 50px;
+  font-size: 20px;
   color: #fff;
   font-weight: bold;
 }
 
-.form__group {
+.form-group {
   text-align: left;
-  padding-left: 1rem;
 }
 
 .first__button {
@@ -10005,6 +10012,13 @@ label {
 
 .btn {
   color: #0c0910;
+}
+
+.button__newsletter {
+  transform: rotate(90deg);
+  position: absolute;
+  right: -1rem;
+  bottom: 7rem;
 }
 
 /*# sourceMappingURL=style.css.map */
