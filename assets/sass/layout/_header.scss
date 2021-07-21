@@ -2,17 +2,45 @@ header {
     background-color: $white;
 }
 
+.text__cover {
+    @media(min-width: 992px) {
+        .item-1 {
+            order: 1;
+            width: 50%;
+            padding-bottom: 0;
+        }
+        .item-2 {
+            order: 2;
+        }
+        display: flex;
+    }
+  
+}
+
 .text__box {
     background-color: $white;
     position: relative;
     bottom: 5rem;
     text-align: center;
+    @media(min-width: 768px) {
+        position: relative;
+        text-align: center;
+        width: 100%;
+        top: 1rem;
+    }
+    
 }
 
 .text__central {
     width: 80%;
     text-align: left;
     margin: auto;
+    @media(min-width: 768px) {
+        width: 80%;
+    }
+    @media(min-width: 1200px) {
+        width: 58%;
+    }
 }
 
 .text__central p {

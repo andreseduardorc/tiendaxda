@@ -1,14 +1,26 @@
+.navigation {
+    .container {
+        padding: 0;
+    }
+}
+
 .logo {
-    width: 5rem;
-    height: 5rem;
+    width: 80px;
+    height: 80px;
     background-color: $smokyblack;
     text-align: center;
-    padding-top: 1.6rem;
     font-weight: bold;
     font-size: $large;
     color: $white;
+    @media(min-width: 573px) {
+        transform: rotate(270deg);
+    }
 }
 
-.nav-item a {
-    color: $smokyblack;
+.menu {
+    .nav-link {
+        color: $smokyblack!important;
+        font-weight: bold;
+        margin-right: 1.5rem;
+    }
 }

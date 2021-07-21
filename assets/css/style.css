@@ -9941,23 +9941,52 @@ img {
   max-width: 100%;
 }
 
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navigation .container {
+  padding: 0;
+}
+
 .logo {
-  width: 5rem;
-  height: 5rem;
+  width: 80px;
+  height: 80px;
   background-color: #0c0910;
   text-align: center;
-  padding-top: 1.6rem;
   font-weight: bold;
   font-size: 18px;
   color: #fff;
 }
+@media (min-width: 573px) {
+  .logo {
+    transform: rotate(270deg);
+  }
+}
 
-.nav-item a {
-  color: #0c0910;
+.menu .nav-link {
+  color: #0c0910 !important;
+  font-weight: bold;
+  margin-right: 1.5rem;
 }
 
 header {
   background-color: #fff;
+}
+
+@media (min-width: 992px) {
+  .text__cover {
+    display: flex;
+  }
+  .text__cover .item-1 {
+    order: 1;
+    width: 50%;
+    padding-bottom: 0;
+  }
+  .text__cover .item-2 {
+    order: 2;
+  }
 }
 
 .text__box {
@@ -9966,11 +9995,29 @@ header {
   bottom: 5rem;
   text-align: center;
 }
+@media (min-width: 768px) {
+  .text__box {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    top: 1rem;
+  }
+}
 
 .text__central {
   width: 80%;
   text-align: left;
   margin: auto;
+}
+@media (min-width: 768px) {
+  .text__central {
+    width: 80%;
+  }
+}
+@media (min-width: 1200px) {
+  .text__central {
+    width: 58%;
+  }
 }
 
 .text__central p {
@@ -9985,9 +10032,14 @@ h1 {
 .form__cube {
   background-color: #0c0910;
   height: 12rem;
-  margin-top: 5rem;
+  margin-top: 2rem;
   padding-top: 2rem;
   margin-right: 3rem;
+}
+@media (min-width: 1200px) {
+  .form__cube {
+    margin-top: 5rem;
+  }
 }
 
 .form__cube-text {
@@ -10006,6 +10058,12 @@ label {
   text-align: left;
 }
 
+@media (min-width: 573px) {
+  .imput {
+    max-width: 82%;
+  }
+}
+
 .first__button {
   text-align: left;
 }
@@ -10019,6 +10077,7 @@ label {
   position: absolute;
   right: -1rem;
   bottom: 7rem;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */

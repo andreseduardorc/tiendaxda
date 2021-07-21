@@ -1,9 +1,12 @@
 .form__cube {
     background-color: $smokyblack;
     height: 12rem;
-    margin-top: 5rem;
+    margin-top: 2rem;
     padding-top: 2rem;
     margin-right: 3rem;
+    @media(min-width: 1200px) {
+        margin-top: 5rem;
+    }
 }
 
 .form__cube-text {
@@ -20,4 +23,10 @@ label {
 
 .form-group {
     text-align: left;
+}
+
+.imput {
+    @media(min-width: 573px) {
+        max-width: 82%;
+    }
 }
